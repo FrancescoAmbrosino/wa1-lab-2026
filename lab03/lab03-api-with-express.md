@@ -25,12 +25,13 @@ Design a set of APIs to support the main features of a web-based Film Library. D
 
 List the designed APIs, together with a short description of the parameters and the exchanged entities, in a README file. Be sure to identify which are the collections and elements you are representing, as seen in class. You might want to follow this structure for reporting each API: 
 
-> [HTTP Method] [URL, optionally with parameter(s)] 
-> [One-line about what this API is doing]
-> [Sample request, with body (if any)]
-> [Sample response, with body (if any)]
-> [Error response(s), if any] 
-
+```
+[HTTP Method] [URL, optionally with parameter(s)] 
+[One-line about what this API is doing]
+[Sample request, with body (if any)]
+[Sample response, with body (if any)]
+[Error response(s), if any] 
+```
 ------------------------------------------------------------------------
 
 ## 2. API implementation 
@@ -43,10 +44,12 @@ Implement the designed HTTP APIs with Express. Films are stored persistently in 
 
 Test the realized API with the REST Client extension for Visual Studio Code. To this end, you will have to write an API.http file according to the following syntax: 
 
-> [HTTP Method] [URL, optionally with parameter(s)] HTTP/1.1
-> content-type: application/json (if needed) 
-> [Sample request, with body (if any), in JSON format]
-> \### 
+```
+[HTTP Method] [URL, optionally with parameter(s)] HTTP/1.1
+content-type: application/json (if needed) 
+[Sample request, with body (if any), in JSON format]
+\###
+```
 
 ### Notes:
 
