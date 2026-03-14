@@ -48,7 +48,7 @@ Test the realized API with the REST Client extension for Visual Studio Code. To 
 [HTTP Method] [URL, optionally with parameter(s)] HTTP/1.1
 content-type: application/json (if needed) 
 [Sample request, with body (if any), in JSON format]
-\###
+###
 ```
 
 ### Notes:
